@@ -1,8 +1,10 @@
 package org.monan.cache;
 
+import org.monan.cache.knockout.Knockout;
+
 public class CacheWrapperConfig {
 
-    public int max = 2048 ;
+    public int maxCount = 2048 ;
 
-    private KnockoutStrategy strategy ;
+    private Knockout strategy ;
 }
