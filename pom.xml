@@ -11,6 +11,8 @@
     <modules>
         <module>local-cache</module>
         <module>delay-queue</module>
+        <module>distribute-lock</module>
+        <module>common</module>
     </modules>
     <dependencies>
         <dependency>
